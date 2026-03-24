@@ -60,3 +60,31 @@ h2{
     font-size: 20px;
     background: green;
 }
+
+.date{
+    display: flex;
+    position: relative;
+    
+}
+
+img{
+    color: white;
+    text-shadow: rgba(0, 0, 0, 1);
+}
+
+.date div{
+    margin: 1px 0 0 -3px;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    padding: 8px;
+}
+
+.date span{
+    display: flex;
+    text-transform: uppercase;
+     font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    align-items: center;
+    opacity: 0.8;
+}
