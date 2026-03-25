@@ -18,11 +18,9 @@ function updateClock() {
     let s = now.getSeconds();
     let ampm = 'AM';
 
-    if (h >= 12) {
-        if (h > 12) h = h - 12;
+    if (h > 12) {
+    h = h - 12;
         ampm = 'PM';
-    } else if (h === 0) {
-        h = 12;
     }
 
     h = h < 10 ? '0' + h : h;
